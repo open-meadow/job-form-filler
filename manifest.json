@@ -1,0 +1,7 @@
+{
+  "manifest_version": 2,
+  "name": "job-form-filler",
+  "version": "1.0",
+
+  "description": "Automatically fills out common fields in online job applications and generates resumes"
+}
