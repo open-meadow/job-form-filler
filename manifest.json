@@ -5,7 +5,16 @@
 
   "description": "Automatically fills out common fields in online job applications and generates resumes",
 
+  "content_scripts": {
+    "js": ["content_scripts/fill_form.js"]
+  },
+
   "browser_action": {
     "default_popup": "popup/pop-up.html"
+  },
+
+  "options_ui": {
+    "page": "options/options.html",
+    "browser_style": true
   }
 }
