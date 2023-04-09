@@ -9,6 +9,17 @@
     "default_popup": "popup/pop-up.html"
   },
 
+  "permissions": [
+    "storage"
+  ],
+
+  "content_scripts": [
+    {
+      "matches":["<all_urls>"],
+      "js":["content_scripts/fill_form.js"]
+    }
+  ],
+
   "options_ui": {
     "page": "options/options.html",
     "browser_style": true,
